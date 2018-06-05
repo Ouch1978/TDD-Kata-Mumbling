@@ -11,16 +11,19 @@ namespace Mumbling
     {
         public static String Accum( string input )
         {
-            string output = string.Empty;
 
-            for( int i = 0; i < input.Length; i++ )
-            {
-                output += ( i > 0 ) ? "-" : string.Empty;
+            return string.Join( "-" , input.Select( ( x , i ) => $"{Char.ToUpper( x )}{new string( Char.ToLower( x ) , i )}" ) );
 
-                output += Char.ToUpper( input[ i ] ) + new string( Char.ToLower( input[ i ] ) , i );
-            }
+            //string output = string.Empty;
 
-            return output;
+            //for( int i = 0; i < input.Length; i++ )
+            //{
+            //    output += ( i > 0 ) ? "-" : string.Empty;
+
+            //    output += Char.ToUpper( input[ i ] ) + new string( Char.ToLower( input[ i ] ) , i );
+            //}
+
+            //return output;
         }
     }
 }
