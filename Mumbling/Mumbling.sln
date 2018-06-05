@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mumbling", "Mumbling\Mumbling.csproj", "{370A9DE7-2667-43EC-B204-CA58F9DA3556}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MumblingTests", "MumblingTests\MumblingTests.csproj", "{218F4182-B108-4C7D-B2EF-20A5A9E87CBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{370A9DE7-2667-43EC-B204-CA58F9DA3556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{370A9DE7-2667-43EC-B204-CA58F9DA3556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{370A9DE7-2667-43EC-B204-CA58F9DA3556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{370A9DE7-2667-43EC-B204-CA58F9DA3556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{218F4182-B108-4C7D-B2EF-20A5A9E87CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{218F4182-B108-4C7D-B2EF-20A5A9E87CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{218F4182-B108-4C7D-B2EF-20A5A9E87CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{218F4182-B108-4C7D-B2EF-20A5A9E87CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9911ABF2-ECAB-4A92-8600-4BBC5120391F}
+	EndGlobalSection
+EndGlobal
